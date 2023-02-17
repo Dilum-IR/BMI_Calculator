@@ -34,7 +34,7 @@ class _MainPageState extends State<MainPage> {
                     print("male");
                     setState(
                       () {
-                        gender = "M";
+                        gender = "Ma";
                       },
                     );
                   }),
@@ -42,7 +42,7 @@ class _MainPageState extends State<MainPage> {
                     height: 200,
                     width: 170,
                     decoration: BoxDecoration(
-                      color: gender == "M"
+                      color: gender == "Ma"
                           ? Colors.orange.withAlpha(150)
                           : Colors.orange.withAlpha(50),
                       borderRadius: BorderRadius.circular(25),
